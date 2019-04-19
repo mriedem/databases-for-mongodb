@@ -2,7 +2,7 @@
 
 Copyright:
   years: 2018, 2019
-lastupdated: "2019-04-10"
+lastupdated: "2019-04-15"
 
 subcollection: databases-for-mongodb
 
@@ -15,7 +15,7 @@ subcollection: databases-for-mongodb
 {:pre: .pre}
 {:tip: .tip}
 
-# Service Overview
+# The UI - Service Overview
 {: #dashboard-overview}
 
 The _Overview_ page shows you information about your {{site.data.keyword.databases-for-mongodb_full}} database. The overview includes essential identifying information.
@@ -38,7 +38,7 @@ Every time that you make administrative changes to your service (such as scaling
 
 ## Connections
 
-The _Connections_ panel contains connection strings for your deployment. Each tab contains connection information tailored to the type of connection or the protocol that uses it. Basic information includes things like _hostname_ and _port_, as well as the TLS self-signed certificate, the replica set name, and arguments that can be passed to the driver or binary that you are using to connect. 
+The _Connections_ panel contains connection strings for your deployment. Each tab contains connection information tailored to the type of connection or the protocol that uses it. Basic information includes things like hostname and port number, as well as the TLS self-signed certificate, the replica set name, and arguments that can be passed to the driver or binary that you are using to connect. 
 
 Reference tables for the different connection types are available on the [Getting Credentials and Connection Strings](/docs/services/databases-for-redis?topic=databases-for-redis-connection-strings) page.
 
@@ -67,3 +67,17 @@ The ID needs to be URL encoded to be used in an API call because the CRN include
 
 For more information about the {{site.data.keyword.cloud_notm}} databases API, see the [API reference](https://{DomainName}/apidocs/cloud-databases-api) page.
 
+## Settings
+
+The _Settings_ tab contains the UI for many of the tunable settings for your deployment. You can 
+- [scale](/docs/services/databases-for-mongodb?topic=databases-for-mongodb-resources-scaling)
+- [change the admin password](/docs/services/databases-for-mongodb?topic=databases-for-mongodb-admin-password)
+- [implement or modify an IP whitelist](/docs/services/databases-for-mongodb?topic=cloud-databases-whitelisting)
+
+## Backups
+
+The _Backups_ tab is the UI for managing your deployments backups. All of the available backups are listed with their timestamps. Click on a backup to grab its ID or to restore it into a new deployment. More information is on the [Managing Backups](/docs/services/databases-for-mongodb?topic=databases-for-mongodb-dashboard-backups) page.
+
+## Docs
+
+The _Docs_ link opens the main documentation page for {{site.data.keyword.databases-for-mongodb}} in a new tab.

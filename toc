@@ -9,17 +9,12 @@ Databases For MongoDB
 	getting-started.md
 	high-availability.md
 	security-compliance.md
-	versioning.md
-
-	{: .topicgroup}
-	The Service Dashboard
-		dashboard-overview.md
-		dashboard-settings.md
-		dashboard-backups.md
+	/cloud-databases/cloud-databases-versioning-policy
+	dashboard-overview.md
 	{: .navgroup-end}
 
 	{: .navgroup id="howto"}
-	howto-provisioning.md
+	/cloud-databases/cloud-databases-provisioning
 	howto-getting-connection-strings.md
 	howto-admin-password.md
 	
@@ -28,15 +23,19 @@ Databases For MongoDB
 		connecting-ibmcloud-app.md
 		connecting-external.md
 		connecting-mongo-cli.md
+
+	howto-resources-scaling.md
+	howto-backups.md
+	/cloud-databases/cloud-databases-whitelisting		
 	{: .navgroup-end}
 
 	{: .navgroup id="reference"}
 	[Cloud Databases CLI plugin](/databases-cli-plugin/cloud-databases-cli-cdb-reference)
 	[Cloud Databases API](https://cloud.ibm.com/apidocs/cloud-databases-api)
-	reference-access-management.md
-	reference-service-endpoints.md
+	/cloud-databases/cloud-databases-iam
+	/cloud-databases/cloud-databases-service-endpoints
 	reference-activity-tracker.md
-	reference-logging.md
+	/cloud-databases/cloud-databases-logging
 	reference-monitoring.md
-	reference-key-protect.md
+	/cloud-databases/cloud-databases-key-protect
 	{: .navgroup-end}

@@ -39,7 +39,7 @@ Field Name|Index|Description
 `Certificate`|`Base64`|A self-signed certificate that is used to confirm that an application is connecting to the appropriate server. It is base64 encoded.
 `Certificate`|`Name`|The allocated name for the self-signed certificate.
 `Type`||The type of package that uses this connection information; in this case `cli`. 
-{: caption="Table 2. `mongo`/`cli` connection information" caption-side="top"}
+{: caption="Table 1. `mongo`/`cli` connection information" caption-side="top"}
 
 * `0...` indicates that there might be one or more of these entries in an array.
 
@@ -66,6 +66,17 @@ ibmcloud cdb deployment-connections --start -u example-user example-mongo
 
 The command prompts for the user's password and then runs the `mongo` command-line client to connect to the database.
 
-If you don't specify a user, the `cdb deployment-connections` commands return information for the admin user by default.
+The option `--start` must come before the parameters, otherwise connection information is just returned and the `mongo` shell is not started.
 {: .tip}
+
+## Using the self-signed certificate
+
+1. Copy the certificate information from the _Connections_ panel or the Base64 field of the connection information. 
+2. If needed, decode the Base64 string into text. 
+3. Save the certificate  to a file. (You can use the Name that is provided or your own file name).
+4. Provide the path to the certificate to the `--sslCAFile` parameter.
+
+### CLI plug-in support for the self-signed certificate
+
+You can display the decoded certificate for your deployment with the CLI plug-in with the command `ibmcloud cdb deployment-cacert "your-service-name"`. It decodes the base64 into text. Copy and save the command's output to a file and provide the file's path to the `--sslCAFile` parameter.
 
