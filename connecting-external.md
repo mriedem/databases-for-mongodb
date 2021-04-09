@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2017,2021
-lastupdated: "2021-03-30"
+  years: 2017,2020
+lastupdated: "2020-08-12"
 
 keywords: mongodb, databases, connecting, pymongo, java driver, self-signed certificate, mongodbee
 
