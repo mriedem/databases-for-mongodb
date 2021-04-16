@@ -55,11 +55,7 @@ The `replicaSet` query parameter contains the replica set name for your deployme
 {: .tip}
 
 
-This example uses the information from your connection string and the Java driver [`mongo-java-driver`](http://mongodb.github.io/mongo-java-driver/?jmp=docs) to connect to your database.
-
-This example uses your connection string and the Python driver [`pymongo`](https://docs.mongodb.com/drivers/pymongo/) to connect to your database. 
-
-This example uses your connection string and the Node.js driver [`mongodb`](http://mongodb.github.io/node-mongodb-native/3.5/) to connect to your database. 
+This language specific example uses the information from your connection string and the driver, [`mongo-java-driver`](http://mongodb.github.io/mongo-java-driver/?jmp=docs){: java} [`pymongo`](https://docs.mongodb.com/drivers/pymongo/){: python} [`mongodb`](http://mongodb.github.io/node-mongodb-native/3.5/){: javascript}, to connect to your database.
 
 {: java}
 ```java
@@ -101,6 +97,7 @@ public class MongodbConnect {
     }
 }
 ```
+{: codeblock}
 {: java}
 
 
@@ -125,6 +122,7 @@ try:
 except ConnectionFailure as err:
     print("Unable to connect to database")
 ```
+{: codeblock}
 {: python}
 
 {: javascript}
@@ -152,6 +150,7 @@ MongoClient.connect(connectionString, options, function (err, db) {
     }
 });
 ```
+{: codeblock}
 {: javascript}
 
 
