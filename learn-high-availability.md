@@ -39,4 +39,5 @@ Several minutes of database unavailability or connection interruptions are not e
 
 {{site.data.keyword.databases-for-mongodb}} deployments conform to the {{site.data.keyword.cloud_notm}} Databases [HA, DR, and SLA](/docs/cloud-databases?topic=cloud-databases-ha-dr) information and terms.
 
-
+Issuing commands that break replication or force node shut down, such as `db.shutdown()`, will break the high availability of your database, void your SLA, and will require restoring from a backup.
+{: .important}
