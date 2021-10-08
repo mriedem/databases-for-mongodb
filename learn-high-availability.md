@@ -37,7 +37,10 @@ Several minutes of database unavailability or connection interruptions are not e
 
 ## High availability, disaster recovery, and SLA resources
 
-{{site.data.keyword.databases-for-mongodb}} deployments conform to the {{site.data.keyword.cloud_notm}} Databases [HA, DR, and SLA](/docs/cloud-databases?topic=cloud-databases-ha-dr) information and terms.
-
 Issuing commands that break replication or force node shut down, such as `db.shutdown()`, will break the high availability of your database, void your SLA, and will require restoring from a backup.
 {: .important}
+
+{{site.data.keyword.databases-for-mongodb}} deployments conform to the {{site.data.keyword.cloud_notm}} Databases [HA, DR, and SLA](/docs/cloud-databases?topic=cloud-databases-ha-dr) information and terms.
+
+You can find more information about best practices when using your MongoDB deployment on the IBM Cloud in this [Best Practices blog post.](https://www.ibm.com/cloud/blog/best-practices-for-mongodb-on-the-ibm-cloud)
+{: .tip}
