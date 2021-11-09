@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2019, 2021
-lastupdated: "2021-10-29"
+lastupdated: "2021-11-09"
 
 keywords: mongodb, databases, mongodb compass, mongodbee
 
