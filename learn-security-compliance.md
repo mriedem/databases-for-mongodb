@@ -1,5 +1,5 @@
 ---
-Copyright:
+copyright:
   years: 2018, 2020
 lastupdated: "2020-08-25"
 
@@ -9,7 +9,7 @@ subcollection: databases-for-mongodb
 
 ---
 
-{:new_window: target="_blank"}
+{:external: .external target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:codeblock: .codeblock}
