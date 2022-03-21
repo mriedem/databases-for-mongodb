@@ -73,7 +73,8 @@ toc:
       - topicgroup: 
           label: Enhancing security
           topics: 
-          - /cloud-databases/cloud-databases-manage-security-compliance
+          - learn-security-compliance.md
+          - manage-scc.md
   - navgroup: 
       id: help
       topics:
